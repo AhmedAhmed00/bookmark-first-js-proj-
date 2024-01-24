@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+  text-decoration: none;
+}
+.page {
+  background-image: linear-gradient(to right, #360033, #0b8793);
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 8px;
+  color: aqua;
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top:15px ;
+}
+h2 {
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+header {
+  min-height: 100vh;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rebeccapurple;
+  width: 60%;
+  border-radius: 60px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: relative;
+  padding: 80px 50px;
+  overflow: hidden;
+  margin: 20px;
+}
+input {
+  margin: 10px auto;
+  padding: 2px 6px;
+  width: 80%;
+  font-size: 16px;
+  border: 1px solid #0b8793;
+  border-radius: 10px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.addButton {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: #0b8793;
+  font-size: 16px;
+  border: white solid 1px;
+  border-radius: 10px;
+  width: 80%;
+  padding: 2px 6px;
+}
+button:hover {
+  background-color: #09c;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+img {
+  position: absolute;
+  width: 15%;
+  height: 31%;
+  top: -9%;
+  right: 9%;
+  
+}
+
+#website {
+  width: 100%;
+  margin: 12px auto;
+  background-image: linear-gradient(to right,#0cebff52,rgba(111, 29, 97, 0.627));
+  border-radius: 20px;
+  padding: 20px 65px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wbname {
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+  
+}
+
+.btn {
+  font-size: 16px;
+  padding: 0px 12px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  margin: 3px;
+}
+.btnGo {
+  background-color: rgba(12, 159, 12, 0.556);
+}
+.btnDel {
+  background-color: rgb(192, 24, 24);
+}
+footer {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: #0b8793;
+}
+#all-websites {
+  width: 60%;
+}
